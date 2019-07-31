@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "Project1/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "code": "exports.handler = function(event, context, callback) {\n    //test\n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -117,14 +117,19 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1564561200491
+    "lastSave": 1564561246411
   },
   "VCS_STATE": {
     "provider": "GitHub",
     "repo": {
-      "name": "Project1",
+      "name": "Project",
       "url": "https://github.com/HirudineeADRT/Project",
-      "branches": []
+      "branches": [
+        {
+          "name": "master",
+          "hash": "bcacc68cbab5a743ccc42a1641fb9e56ac65fd62"
+        }
+      ]
     }
   }
 }
